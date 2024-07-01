@@ -1,0 +1,13 @@
+{
+    "YouTube": {"img": "youtube.webp", "url": "https://www.youtube.com/"},
+    "Telegram": {"img": "telegram.webp", "url": "https://web.telegram.org/"},
+    "Pinterest": {"img": "pinterest.webp", "url": "https://ru.pinterest.com/"},
+    "Twitch": {"img": "twitch.webp", "url": "https://www.twitch.tv/"},
+    "TikTok": {"img": "tiktok.webp", "url": "https://www.tiktok.com/"},
+    "GitHub": {"img": "github.webp", "url": "https://github.com/"},
+    "Chat GPT": {"img": "230x0w.webp", "url": "https://chat.openai.com/"},
+    "Claude AI": {"img": "claude.webp", "url": "https://claude.ai/"},
+    "Modrinth": {"img": "Modrinth.png", "url": "https://modrinth.com/"},
+    "gmail": {"img": "gmail.webp", "url": "https://mail.google.com/"},
+    "Rutor": {"img": "channels4_profile.jpg", "url": "https://thebyrut.org/"}
+}

@@ -1,0 +1,175 @@
+/* лишнее */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    overflow: auto;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+main {
+    min-height: 100%;
+}
+
+/* индексы */
+.insection {
+    padding-top: 5.21vh;
+    padding-bottom: 5.1vh;
+    padding-left: 5.21vh;
+    padding-right: 5.21vh;
+    background-image: url('/Image/sdadadas.png');
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.75vh;
+    display: inline-flex;
+    width: 94%;
+}
+
+.timer {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Frame1 {
+    /*width: 91.5vh;*/
+    /*height: 50vh;*/
+    padding: 3.12vh;
+    background-color: rgba(255, 255, 255, 0.158);
+    border: solid 0.1vh;
+    border-color: rgba(255, 255, 255, 0.158);
+    border-radius: 6.24vh;
+    overflow: hidden;
+    backdrop-filter: blur(22.94vh);
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2.6vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.Frame23 {
+    width: 13vh;
+    height: 13vh;
+    position: relative;
+    border-radius: 3.12vh;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.Frame23 img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease; /* Применяем переход для transform */
+}
+
+.Frame23:hover img {
+    transform: scale(1.1); /* Увеличиваем масштаб изображения при наведении */
+}
+
+.icon {
+    width: 13vh;
+    height: 13vh;
+    border-radius: 3.12vh;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 3.12vh;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    opacity: 0; /* Начальная непрозрачность */
+    transition: opacity 0.3s ease; /* Плавное изменение непрозрачности */
+}
+
+.namesite {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 1.3vh;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Frame3 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.04vh;
+    display: inline-flex
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.loading-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    animation: fadeOut 2s forwards;
+}
+.settings {
+    border-radius: 50px;
+    backdrop-filter: blur(22px);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 30px;
+}
+::-webkit-scrollbar {
+    width: var(--scrollbar-size);
+    height: var(--scrollbar-size);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    border: 4px solid transparent;
+    --tw-bg-opacity: 1;
+    background-color: rgb(82 82 91/ var(--tw-bg-opacity));
+    background-clip: padding-box;
+}
+
+html ::-webkit-scrollbar-track {
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 39 42/ var(--tw-bg-opacity));
+}
+::-webkit-scrollbar-track {
+    --tw-bg-opacity: 1;
+    background-color: rgb(244 244 245/ var(--tw-bg-opacity));
+    padding: .25rem;
+}
+::-webkit-scrollbar-track {
+    --tw-bg-opacity: 1;
+    background-color: rgb(244 244 245/ var(--tw-bg-opacity));
+    padding: .25rem;
+}

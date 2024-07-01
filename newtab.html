@@ -1,0 +1,36 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новая вкладка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
+</head>
+<body class="insection">
+    <div class="loading-animation"></div>
+    <div class="Frame5" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: flex; 	width: 100%;">
+      <div><a id="hours" class="timer">00</a><a class="timer">:</a><a id="minutes" class="timer">00</a></div>
+    </div>
+    <div class="Frame1" id="content">
+    </div>
+    <!--INDEX PAGE MADE BY FINICIY-->
+    <label class="" for="modal-toggle"><!--<img class="settings" src="Image/settings.png">--></a></label> 
+    <div class="modal-container">
+      <input id="modal-toggle" type="checkbox">
+      <label class="modal-backdrop" for="modal-toggle"></label>
+      <div class="modal-content">
+        <label class="modal-close" for="modal-toggle">&#x2715;</label>
+        <h2>Настройки</h2>
+        <hr />
+        <label for="site-name-input">Имя сайта:</label>
+        <input type="text" id="site-name-input">
+        <label for="site-url-input">URL сайта:</label>
+        <input type="text" id="site-url-input">
+        <button id="add-site-btn">Добавить сайт</button>
+        <input type="file" id="icon-file-input">
+        <button id="export-icon-btn">Экспорт иконки</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
